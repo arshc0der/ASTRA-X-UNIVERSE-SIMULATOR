@@ -1,135 +1,128 @@
+# 🚀 AstraX — Pro Solar System Architect
 
-<h1 align="center">🚀 AstraX: Pro Solar System Architect</h1>
+> An enterprise-grade **solar system simulator & mission design lab** with real physics, real code, and real space missions.
 
-<p align="center">
-  <b>An enterprise-grade solar system simulator with real physics, real code, and real missions.</b>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/arshc0der/ASTRA-X-UNIVERSE-SIMULATOR/refs/heads/main/Testing/preview/logo.jpg" />
-</p>
-
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/version-2.0.0-blue.svg" />
+  <img src="https://img.shields.io/badge/status-Stable-brightgreen.svg" />
+  <img src="https://img.shields.io/badge/license-MIT-green.svg" />
   <img src="https://img.shields.io/badge/python-3.10%2B-yellow.svg" />
   <img src="https://img.shields.io/badge/physics-N--Body-orange.svg" />
   <img src="https://img.shields.io/badge/rendering-OpenGL-success.svg" />
-  <img src="https://img.shields.io/badge/license-MIT-green.svg" />
-  <img src="https://img.shields.io/badge/status-Stable-brightgreen.svg" />
-  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20MacOS-lightgrey.svg" />
+  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg" />
+  <img src="https://img.shields.io/badge/simulation-Real%20Orbital%20Mechanics-red.svg" />
+  <img src="https://img.shields.io/badge/contributions-welcome-yellow.svg" />
+  <img src="https://img.shields.io/github/stars/arshc0der/AstraX?style=social" />
+  <img src="https://img.shields.io/github/forks/arshc0der/AstraX?style=social" />
 </p>
 
 <p align="center">
-  Built by <a href="https://github.com/arshc0der">@arshc0der</a>
+  <img src="https://raw.githubusercontent.com/arshc0der/ASTRA-X-UNIVERSE-SIMULATOR/refs/heads/main/Testing/preview/logo.jpg" width="75%" />
 </p>
 
 ---
 
-## 🌌 About Astra-X
+## 🌌 Overview
 
-**Astra-X** is a professional-grade **space flight simulator and mission architecture suite**.  
-It combines a **high-fidelity N-Body Physics Engine** with a **live Python Flight Computer**, allowing you to:
+**Astra-X** is a **professional-grade space flight simulator and mission architecture suite**.  
+It is designed as a **simulation laboratory**, not a game.
 
-- Design rockets  
-- Write real guidance software  
-- Launch missions  
-- Navigate a full-scale 3D solar system  
+With Astra-X, you can:
 
-This is **not a game** — it’s a **simulation lab**.
+- 🛰 Design rockets from physical parameters  
+- 🧠 Write **real Python flight software**
+- 🌍 Navigate a full-scale **3D solar system**
+- 🪐 Simulate **true N-Body gravity**
+- 📡 Analyze telemetry like a real mission control
 
----
-
-## 🖼️ Preview Gallery
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/arshc0der/ASTRA-X-UNIVERSE-SIMULATOR/refs/heads/main/Testing/preview/1.png" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/arshc0der/ASTRA-X-UNIVERSE-SIMULATOR/refs/heads/main/Testing/preview/2.png" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/arshc0der/ASTRA-X-UNIVERSE-SIMULATOR/refs/heads/main/Testing/preview/3.png" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/arshc0der/ASTRA-X-UNIVERSE-SIMULATOR/refs/heads/main/Testing/preview/4.png" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/arshc0der/ASTRA-X-UNIVERSE-SIMULATOR/refs/heads/main/Testing/preview/5.png" />
-</p>
+> Ideal for **students, researchers, engineers, educators, and space enthusiasts**.
 
 ---
 
-## 🌟 Core Features
+## ✨ Core Features
 
-### 🪐 Full Solar System Physics
-- Real-time **N-Body gravity simulation**
+### 🪐 Real Solar System Physics
+- True **N-Body gravitational simulation**
 - Sun, Earth, Moon, Mars, Jupiter
-- True orbital mechanics (no fake rails)
+- No fake rails or scripted orbits
 
-### 💻 Live Flight Coding Sandbox
-- Write **real Python code**
-- Control thrust, pitch, staging
-- Autonomous mission logic
+### 💻 Live Flight Computer
+- Write real-time **Python guidance code**
+- Control thrust, pitch, staging & autonomy
+- Fully sandboxed runtime
 
 ### 📐 Rocket Design Lab
-- Dry mass configuration
-- Fuel capacity modeling
+- Dry mass & fuel modeling
 - Engine thrust tuning
+- Mass-dependent dynamics
 
-### 📊 Professional Telemetry HUD
+### 📊 Mission Telemetry HUD
 - Velocity vectors
 - Altitude & orbital parameters
 - Trajectory prediction
 
-### 🎥 Cinematic 3D Rendering
+### 🎥 High-Fidelity 3D Rendering
 - OpenGL-accelerated viewport
-- Planet textures & orbits
 - Dynamic camera tracking
+- Planet textures & orbital paths
 
-### 🛡️ Crash & Landing Physics
+### 🛬 Landing & Crash Physics
 - Collision detection
 - Soft-landing logic
-- Mission result evaluation
+- Mission success evaluation
+
+---
+
+## 🖼 Preview Gallery
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/arshc0der/ASTRA-X-UNIVERSE-SIMULATOR/refs/heads/main/Testing/preview/1.png" width="90%" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/arshc0der/ASTRA-X-UNIVERSE-SIMULATOR/refs/heads/main/Testing/preview/2.png" width="90%" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/arshc0der/ASTRA-X-UNIVERSE-SIMULATOR/refs/heads/main/Testing/preview/3.png" width="90%" />
+</p>
 
 ---
 
 ## 🧠 Technology Stack
 
-| Layer | Technology |
-|-----|-----------|
-| Core Language | Python 3.10+ |
-| GUI | PyQt6 |
-| Rendering | OpenGL + PyQtGraph |
-| Physics | NumPy (Vectorized math) |
-| Assets | Pillow |
-| Architecture | Modular, sandboxed runtime |
+| Layer        | Technology                    |
+|-------------|--------------------------------|
+| Language    | Python 3.10+                   |
+| GUI         | PyQt6                          |
+| Rendering   | OpenGL + PyQtGraph             |
+| Physics     | NumPy (Vectorized N-Body math) |
+| Assets      | Pillow                         |
+| Architecture| Modular & sandboxed runtime    |
 
 ---
 
-## ⚠️ Important Before Running
+## ⚠️ Before Running
 
-> **Remove the folder**
+> **IMPORTANT:**  
+Remove the following folder before launching:
 
 ```text
-Remove:  Testing 
+Remove: Testing
 ````
 
 ---
 
-## 📥 Installation
+## 🛠 Installation
 
-### 1️⃣ Clone the Repository
+### 🔹 Clone Repository
 
 ```bash
-git clone https://github.com/arshc0der/Astra-X.git
-cd Astra-X
+git clone https://github.com/arshc0der/AstraX.git
+cd AstraX
 ```
 
-### 2️⃣ (Optional) Create Virtual Environment
+### 🔹 (Optional) Virtual Environment
 
 ```bash
 python -m venv venv
@@ -137,11 +130,11 @@ python -m venv venv
 # Windows
 venv\Scripts\activate
 
-# Mac / Linux
+# macOS / Linux
 source venv/bin/activate
 ```
 
-### 3️⃣ Install Dependencies
+### 🔹 Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -155,7 +148,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-✔ Automatically handles **High-DPI / 4K scaling**
+✔ Automatic **High-DPI / 4K scaling support**
 
 ---
 
@@ -163,16 +156,16 @@ python main.py
 
 ### Phase 1 — Rocket Design
 
-1. Set **Dry Mass**
-2. Configure **Fuel Capacity**
-3. Adjust **Engine Thrust**
+1. Configure **Dry Mass**
+2. Set **Fuel Capacity**
+3. Tune **Engine Thrust**
 4. Click **INITIALIZE FLIGHT SYSTEMS**
 
 ### Phase 2 — Mission Control
 
 1. Write your `mission_loop()`
 2. Press **LAUNCH MISSION**
-3. Observe trajectory in 3D space
+3. Observe real-time 3D trajectory
 
 ---
 
@@ -219,37 +212,48 @@ AstraX_Sim/
 
 ## 🤝 Contributing
 
-1. Fork the repo
-2. Create feature branch
-3. Commit changes
-4. Open Pull Request
+Contributions are welcome 🚀
+
+1. 🍴 Fork the repository
+2. 🌱 Create a feature branch
+3. 🛠 Commit your changes
+4. 🔁 Open a Pull Request
+
+If you like Astra-X, please ⭐ **star the repo** — it helps a lot!
+
+---
+
+## 📦 Deployment (Standalone EXE)
+
+```bash
+python -m PyInstaller --noconsole --onefile \
+--name="AstraX" \
+--icon="assets/logo.png" \
+--add-data "assets;assets" \
+--version-file="version_info.txt" \
+main.py
+```
+
+---
+
+## 📢 Stay Connected
+
+| Platform | Link                                                                                     |
+| -------- | ---------------------------------------------------------------------------------------- |
+| GitHub   | [https://github.com/arshc0der](https://github.com/arshc0der)                             |
+| Issues   | [https://github.com/arshc0der/AstraX/issues](https://github.com/arshc0der/AstraX/issues) |
 
 ---
 
 ## 📜 License
 
-MIT License © 2026
-See `LICENSE` for details.
+Distributed under the **MIT License**.
+© 2026 **Arsh**
 
 ---
 
-## ⭐ Support the Project
+### ❤️ Built for engineers, students, researchers & space dreamers.
 
-If this project impressed you — **give it a star** ⭐
-It helps a lot!
+> **Astra-X — Not a game. A real mission simulator.**
 
-🔗 **Author:** [https://github.com/arshc0der](https://github.com/arshc0der)
-
-
-If you want next upgrades, I can also:
-- 🔥 Add **animated GIF previews**
-- 🌍 Add **mission roadmap section**
-- 🧪 Add **research / educational positioning**
-- 🛰️ Add **“Why Astra-X?” comparison section**
-- 🧾 Auto-generate **docs site from README**
-
-Deployment
-```bash
-python -m PyInstaller --noconsole --onefile --name="AstraX" --icon="assets/logo.png" --add-data "assets;assets" --version-file="version_info.txt" main.py
-```
-Just say the word 😌🚀
+---

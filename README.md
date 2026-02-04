@@ -248,4 +248,8 @@ If you want next upgrades, I can also:
 - 🛰️ Add **“Why Astra-X?” comparison section**
 - 🧾 Auto-generate **docs site from README**
 
+Deployment
+```bash
+pyinstaller --noconsole --onefile --name="AstraX" --icon="assets/logo.png" --add-data "assets;assets" --version-file="version_info.txt" main.py
+```
 Just say the word 😌🚀

@@ -1,116 +1,199 @@
-# 🚀 Astra-X: Pro Solar System Architect
 
-![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
-![Python](https://img.shields.io/badge/Python-3.10%2B-yellow.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Status](https://img.shields.io/badge/status-Stable-brightgreen.svg)
+<h1 align="center">🚀 Astra-X: Pro Solar System Architect</h1>
 
-**Astra-X** is an enterprise-grade space flight simulator and mission architecture suite. It combines a high-fidelity **N-Body Physics Engine** with a **Python Coding Sandbox**, allowing users to design rockets and write real flight software to explore a full-scale 3D Solar System.
+<p align="center">
+  <b>An enterprise-grade solar system simulator with real physics, real code, and real missions.</b>
+</p>
 
-Built by **[@arshc0der](https://github.com/arshc0der)**.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/arshc0der/ASTRA-X-UNIVERSE-SIMULATOR/refs/heads/main/Testing/preview/logo.jpg" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/version-2.0.0-blue.svg" />
+  <img src="https://img.shields.io/badge/python-3.10%2B-yellow.svg" />
+  <img src="https://img.shields.io/badge/physics-N--Body-orange.svg" />
+  <img src="https://img.shields.io/badge/rendering-OpenGL-success.svg" />
+  <img src="https://img.shields.io/badge/license-MIT-green.svg" />
+  <img src="https://img.shields.io/badge/status-Stable-brightgreen.svg" />
+  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20MacOS-lightgrey.svg" />
+</p>
+
+<p align="center">
+  Built by <a href="https://github.com/arshc0der">@arshc0der</a>
+</p>
 
 ---
 
-## 🌌 Key Features
+## 🌌 About Astra-X
 
-* **🪐 Full Solar System Simulation:** Real-time N-Body gravity simulation including the Sun, Earth, Mars, Moon, and Jupiter.
-* **💻 Flight Coding Sandbox:** Write your own guidance algorithms in Python to control the rocket's thrust and pitch vectoring.
-* **📐 Rocket Designer Lab:** Configure your vehicle's mass, fuel capacity, and engine thrust before every mission.
-* **📊 Pro Telemetry HUD:** Real-time "Head-Up Display" showing orbital velocity, altitude, and trajectory data.
-* **🎥 Cinematic 3D View:** OpenGL-powered rendering with trajectory plotting, planet textures, and dynamic camera tracking.
-* **🛡️ Crash Physics:** Accurate collision detection and soft-landing logic.
+**Astra-X** is a professional-grade **space flight simulator and mission architecture suite**.  
+It combines a **high-fidelity N-Body Physics Engine** with a **live Python Flight Computer**, allowing you to:
+
+- Design rockets  
+- Write real guidance software  
+- Launch missions  
+- Navigate a full-scale 3D solar system  
+
+This is **not a game** — it’s a **simulation lab**.
 
 ---
 
-## 🛠️ Technology Stack
+## 🖼️ Preview Gallery
 
-* **Core:** Python 3.10+
-* **GUI Framework:** PyQt6 (Modern Desktop Interface)
-* **Visualization:** PyQtGraph + OpenGL (High-performance 3D rendering)
-* **Math/Physics:** NumPy (Vectorized orbital mechanics)
-* **Assets:** Pillow (Texture management)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/arshc0der/ASTRA-X-UNIVERSE-SIMULATOR/refs/heads/main/Testing/preview/1.png" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/arshc0der/ASTRA-X-UNIVERSE-SIMULATOR/refs/heads/main/Testing/preview/2.png" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/arshc0der/ASTRA-X-UNIVERSE-SIMULATOR/refs/heads/main/Testing/preview/3.png" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/arshc0der/ASTRA-X-UNIVERSE-SIMULATOR/refs/heads/main/Testing/preview/4.png" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/arshc0der/ASTRA-X-UNIVERSE-SIMULATOR/refs/heads/main/Testing/preview/5.png" />
+</p>
+
+---
+
+## 🌟 Core Features
+
+### 🪐 Full Solar System Physics
+- Real-time **N-Body gravity simulation**
+- Sun, Earth, Moon, Mars, Jupiter
+- True orbital mechanics (no fake rails)
+
+### 💻 Live Flight Coding Sandbox
+- Write **real Python code**
+- Control thrust, pitch, staging
+- Autonomous mission logic
+
+### 📐 Rocket Design Lab
+- Dry mass configuration
+- Fuel capacity modeling
+- Engine thrust tuning
+
+### 📊 Professional Telemetry HUD
+- Velocity vectors
+- Altitude & orbital parameters
+- Trajectory prediction
+
+### 🎥 Cinematic 3D Rendering
+- OpenGL-accelerated viewport
+- Planet textures & orbits
+- Dynamic camera tracking
+
+### 🛡️ Crash & Landing Physics
+- Collision detection
+- Soft-landing logic
+- Mission result evaluation
+
+---
+
+## 🧠 Technology Stack
+
+| Layer | Technology |
+|-----|-----------|
+| Core Language | Python 3.10+ |
+| GUI | PyQt6 |
+| Rendering | OpenGL + PyQtGraph |
+| Physics | NumPy (Vectorized math) |
+| Assets | Pillow |
+| Architecture | Modular, sandboxed runtime |
+
+---
+
+## ⚠️ Important Before Running
+
+> **Remove the folder**
+
+```text
+Remove:  Testing 
+````
 
 ---
 
 ## 📥 Installation
 
-1.  **Clone the Repository**
-    ```bash
-    git clone [https://github.com/arshc0der/Astra-X-Sim.git](https://github.com/arshc0der/Astra-X-Sim.git)
-    cd Astra-X-Sim
-    ```
+### 1️⃣ Clone the Repository
 
-2.  **Create a Virtual Environment (Optional but Recommended)**
-    ```bash
-    python -m venv venv
-    # Windows:
-    venv\Scripts\activate
-    # Mac/Linux:
-    source venv/bin/activate
-    ```
+```bash
+git clone https://github.com/arshc0der/Astra-X.git
+cd Astra-X
+```
 
-3.  **Install Dependencies**
-    ```bash
-    pip install -r requirements.txt
-    ```
+### 2️⃣ (Optional) Create Virtual Environment
+
+```bash
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+# Mac / Linux
+source venv/bin/activate
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
-## 🚀 How to Run
-
-Simply execute the main controller script:
+## 🚀 Launch Simulator
 
 ```bash
 python main.py
-
 ```
 
-*Note: If you are on a High-DPI (4K) monitor, the application automatically adjusts scaling for crisp visuals.*
+✔ Automatically handles **High-DPI / 4K scaling**
 
 ---
 
-## 🎮 How to Play
+## 🎮 Mission Workflow
 
-### Phase 1: The Design Lab
+### Phase 1 — Rocket Design
 
-Upon launching, you will enter the **Rocket Configuration** screen.
+1. Set **Dry Mass**
+2. Configure **Fuel Capacity**
+3. Adjust **Engine Thrust**
+4. Click **INITIALIZE FLIGHT SYSTEMS**
 
-1. Set your **Dry Mass** (kg).
-2. Set **Fuel Capacity** (Units).
-3. Set **Engine Thrust** (Newtons).
-4. Click **"INITIALIZE FLIGHT SYSTEMS"**.
+### Phase 2 — Mission Control
 
-### Phase 2: Mission Control
+1. Write your `mission_loop()`
+2. Press **LAUNCH MISSION**
+3. Observe trajectory in 3D space
 
-You are now on the Flight Deck.
+---
 
-1. **Write Code:** Use the editor on the left to define your `mission_loop()`.
-2. **Launch:** Click the **LAUNCH MISSION** button.
-3. **Explore:** Use your mouse to zoom/pan in the 3D view.
-
-### 📝 Sample Flight Script
-
-Copy this into the editor to launch your first mission to Orbit!
+## 📝 Example Flight Program
 
 ```python
 def mission_loop():
-    # 1. GET TELEMETRY
     alt_km = rocket.get_altitude()
     vel = rocket.get_velocity()
-    
-    # 2. ASCENT LOGIC
+
     if alt_km < 50:
-        rocket.set_pitch(90) # Vertical Climb
+        rocket.set_pitch(90)
         rocket.set_thrust(1.0)
     elif alt_km < 150:
-        rocket.set_pitch(60) # Gravity Turn
+        rocket.set_pitch(60)
         rocket.set_thrust(1.0)
     elif vel < 7500:
-        rocket.set_pitch(0) # Orbital Insertion
+        rocket.set_pitch(0)
         rocket.set_thrust(1.0)
     else:
-        rocket.set_thrust(0.0) # Coast in Orbit
-
+        rocket.set_thrust(0.0)
 ```
 
 ---
@@ -119,48 +202,50 @@ def mission_loop():
 
 ```text
 AstraX_Sim/
-├── main.py                # Entry Point & DPI Handling
+├── main.py
 ├── core/
-│   ├── physics.py         # N-Body Gravity Engine
-│   ├── runtime.py         # Secure Python Sandbox
-│   └── mission_result.py  # Crash/Land Logic
+│   ├── physics.py
+│   ├── runtime.py
+│   └── mission_result.py
 ├── ui/
-│   ├── window.py          # Main UI Controller
-│   ├── viewport.py        # 3D OpenGL Renderer
-│   └── designer.py        # Rocket Config Widget
+│   ├── window.py
+│   ├── viewport.py
+│   └── designer.py
 └── assets/
-    └── theme.py           # Dark Mode Stylesheet
-
+    └── theme.py
 ```
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-
-1. Fork the Project.
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the Branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
+1. Fork the repo
+2. Create feature branch
+3. Commit changes
+4. Open Pull Request
 
 ---
 
 ## 📜 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+MIT License © 2026
+See `LICENSE` for details.
 
 ---
 
-### 🌟 Show your support
+## ⭐ Support the Project
 
-Give a ⭐️ if you like this project!
+If this project impressed you — **give it a star** ⭐
+It helps a lot!
 
-**Connect with me:**
-[GitHub](https://github.com/arshc0der)
+🔗 **Author:** [https://github.com/arshc0der](https://github.com/arshc0der)
 
 
-### **Next Steps for You**
-1.  **Create the Repository:** Go to GitHub, create a new repo named `Astra-X-Sim`.
-2.  **Upload:** Run these commands in your project folder:
+If you want next upgrades, I can also:
+- 🔥 Add **animated GIF previews**
+- 🌍 Add **mission roadmap section**
+- 🧪 Add **research / educational positioning**
+- 🛰️ Add **“Why Astra-X?” comparison section**
+- 🧾 Auto-generate **docs site from README**
+
+Just say the word 😌🚀

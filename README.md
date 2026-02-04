@@ -250,6 +250,6 @@ If you want next upgrades, I can also:
 
 Deployment
 ```bash
-pyinstaller --noconsole --onefile --name="AstraX" --icon="assets/logo.png" --add-data "assets;assets" --version-file="version_info.txt" main.py
+python -m PyInstaller --noconsole --onefile --name="AstraX" --icon="assets/logo.png" --add-data "assets;assets" --version-file="version_info.txt" main.py
 ```
 Just say the word 😌🚀

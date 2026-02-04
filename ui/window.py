@@ -12,7 +12,7 @@ from assets.theme import DARK_THEME
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("ASTRA-X PRO | UNIVERSE SIMULATOR")
+        self.setWindowTitle("Astra-X: Pro Solar System Architect")
         self.resize(1800, 1000)
         self.setStyleSheet(DARK_THEME)
 

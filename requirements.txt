@@ -4,3 +4,4 @@ numpy
 PyOpenGL
 PyOpenGL_accelerate
 Pillow
+pyinstaller

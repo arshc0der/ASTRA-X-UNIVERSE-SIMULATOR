@@ -9,6 +9,17 @@
 *.so.*
 *.dll
 *.dylib
+./venv
+*.venv
+./assets/__pycache__
+./core/__pycache__
+./ui/__pycache__
+
+
+/assets/__pycache__
+/core/__pycache__
+/ui/__pycache__
+
 
 # Qt-es
 object_script.*.Release

@@ -1,5 +1,5 @@
 
-<h1 align="center">🚀 Astra-X: Pro Solar System Architect</h1>
+<h1 align="center">🚀 AstraX: Pro Solar System Architect</h1>
 
 <p align="center">
   <b>An enterprise-grade solar system simulator with real physics, real code, and real missions.</b>
